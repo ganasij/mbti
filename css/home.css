@@ -1,0 +1,23 @@
+body {
+	background-color: #F6FCFF;
+	background-image: url("../images/main_bg.jpg");
+	background-position: top center;
+	/*이미지를 반복적으로 보여주지 않는 코드*/
+	background-repeat: no-repeat;
+}
+.character {
+	width: 100%;
+	max-width: 364px;
+
+	/* 
+	이미지 inline요소라 변경X
+	이미지를 block요소로 변경할 것.
+	*/
+	margin-left: auto;
+	margin-right: auto;
+
+	/* Inline 요소인 img를 block요소로 바꾸는 코드 */
+	display: block;
+
+	margin-bottom: 40px;
+}
